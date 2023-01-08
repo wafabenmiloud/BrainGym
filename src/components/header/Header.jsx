@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-      <div className="head">
+    <header>
       <Navbar />
+      <div className="head">
         <h1 className="title">
           {" "}
           Develop tomorrow's skills
@@ -17,5 +18,6 @@ export default function Header() {
         </h1>
         
       </div>
+    </header>
   );
 }
