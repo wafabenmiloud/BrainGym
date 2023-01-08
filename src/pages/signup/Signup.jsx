@@ -3,6 +3,15 @@ import './Signup.css';
 import { Link } from "react-router-dom";
 import img from "../../assets/form.jpg"
 export default function Signup() {
+  const [user,setUser] = useState({
+    name:"",
+    age:"",
+    email:"",
+    password:""
+  })
+  const handleChange = e =>{
+    co
+  }
 
   return (
     <>
