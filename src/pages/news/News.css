@@ -1,0 +1,26 @@
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#card img{
+    width: 70%;
+}
+#card h3{color: black;}
+#card{padding: 5%;}
+#card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+@media screen and (max-width:1024px) {
+   #cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   }
+ }
+ 

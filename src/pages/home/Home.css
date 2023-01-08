@@ -1,0 +1,25 @@
+#about .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+}
+#about{
+    margin: 10%;
+}
+.about__img img{width: 100%;}
+#cards__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#courses{    margin: 10%;
+}
+#about h1, #courses h1{color: var(--color-bg); font-weight: bolder; font-size: 2rem;}
+/*===========media queries (medium devices : tablets)=======*/
+@media screen and (max-width:1024px) {
+   #cards__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
