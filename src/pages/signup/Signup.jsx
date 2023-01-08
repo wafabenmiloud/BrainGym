@@ -3,6 +3,7 @@ import './Signup.css';
 import { Link } from "react-router-dom";
 import img from "../../assets/form.jpg"
 export default function Signup() {
+
   return (
     <>
     <Link to="/" className='logo'>BrainGym</Link>
