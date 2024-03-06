@@ -1,6 +1,6 @@
 header .head{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     background-image: url(../../assets//bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -9,7 +9,7 @@ header .head{
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    margin: 0;
+
 }
 
 header .head .title{
@@ -17,11 +17,11 @@ header .head .title{
     padding: 10%;
 }
 #btn{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
-    border-radius: 20%;
+    border-radius: 10px;
     border: 1px solid white;
-    padding: 2%;
+    padding: 10px;
 }
 #btn:hover {
     background-color:white ;

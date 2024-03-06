@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 5%;
+    margin: 2%;
 }
 .card__fee{
     display: flex;
@@ -24,7 +24,7 @@
     color: white;
     text-align: center;
     background-color: var(--color-bg);
-    margin-top: 5%;
+    margin-top: 0%;
     padding: 3%;
 }
 #cards__wrapper{
@@ -37,7 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 5%;
+margin: 100px auto;    width: 50%;
 }
 .row1{
     display: flex;
@@ -70,27 +70,35 @@
     margin-left: 5%;
 }
 @media screen and (max-width:1024px) {
+    #card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin: 10px;
+    }
+    .row1__col1 img{width: 60%;margin: auto;}
+
    #about .content, #cards__wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
    }
    .row1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: left;
-    gap: 2rem;
+    gap: 1rem;
+}
+   
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+margin: 10px;    width: 100%;
 }
 }
-@media screen and (max-width:1024px) {
-  
-    .row1{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 2rem;
- }
- }

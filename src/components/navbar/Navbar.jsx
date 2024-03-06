@@ -19,8 +19,8 @@ export default function Navbar() {
               BrainGym
             </Link>
           </li>
-        
-          <li>
+        <div className="navbar_menu_row">
+            <li>
             <Link className="navbar__link" to="/Cours">
               Courses
             </Link>
@@ -31,12 +31,16 @@ export default function Navbar() {
             </Link>
           </li>
 
-            <Link to="/SignIn" className="btn">
+        </div>
+        <div className="navbar_menu_row">
+           <Link to="/SignIn" className="btn">
               Login
             </Link>
             <Link to="/SignUp" className="btn">
                Get started
             </Link>
+        </div>
+           
           <button className="navbar__btn close" onClick={showNavbar}>
             <FaTimes />
           </button>
